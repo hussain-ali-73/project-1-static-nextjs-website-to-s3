@@ -115,10 +115,10 @@ function Newsletter() {
     >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <MailIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Stay up to date</span>
+        <span className="ml-3">Stay up to date with Hussain Ali</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Get notified when I publish something new, and unsubscribe at any time.
+        Get notified when I publish something new, and unsubscribe at any time to .
       </p>
       <div className="mt-6 flex">
         <input
@@ -140,8 +140,8 @@ function Resume() {
   let resume = [
     {
       company: 'NVTC',
-      title: 'CEO',
-      logo: logoPlanetaria,
+      title: 'student',
+      
       start: '2019',
       end: {
         label: 'Present',
@@ -150,22 +150,22 @@ function Resume() {
     },
     {
       company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
+      title: 'Cloud Engineer',
+     
       start: '2014',
       end: '2019',
     },
     {
       company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
+      title: 'Cloud Engineer',
+      
       start: '2011',
       end: '2014',
     },
     {
       company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
+      title: 'Junoir Cloud Engineer',
+     
       start: '2008',
       end: '2011',
     },
@@ -181,7 +181,7 @@ function Resume() {
         {resume.map((role, roleIndex) => (
           <li key={roleIndex} className="flex gap-4">
             <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-              <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+            
             </div>
             <dl className="flex flex-auto flex-wrap gap-x-2">
               <dt className="sr-only">Company</dt>
@@ -251,7 +251,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+        Hussain Ali - Cloud Engineer
         </title>
         <meta
           name="description"
@@ -261,11 +261,11 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Cloud Engineer
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
+          Hussain Ali, a Cloud Engineer and entrepreneur based in Bahrain
+          . I’m the founder and CEO of Planetaria, where we develop
             technologies that empower regular people to explore space on their
             own terms.
           </p>
